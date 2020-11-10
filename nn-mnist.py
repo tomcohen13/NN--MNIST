@@ -5,8 +5,7 @@ from matplotlib import pyplot as plt
 
 def nn(X,Y,test):
 
-    # I'll compute the distances using some linear algebra.
-    # Note: the full calculation and reasoning behind this is in the PDF write-up!
+    # Compute Euclidean distances using some linear algebra.
 
     T2 = np.matrix(np.square(test).sum(axis = 1)) # that's all the ti^2
     
